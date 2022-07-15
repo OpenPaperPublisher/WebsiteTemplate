@@ -1,4 +1,4 @@
-export default () => (
+const Home = () => (
   <div className="App">
     <header className="App-header">
       <p>
@@ -15,3 +15,5 @@ export default () => (
     </header>
   </div>
 );
+
+export default Home;
