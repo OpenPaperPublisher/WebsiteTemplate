@@ -5,7 +5,6 @@ import BlogPost from "./pages/BlogPost";
 const documents = require("./documents_from_dropbox/documents.json") 
 
 const App = () => {
-  console.log(documents);
   return <div className="App">
     <BrowserRouter>
       <Routes>
